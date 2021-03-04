@@ -1,1 +1,1 @@
-# Implementations of various useful Data Structures and alogrithms
+# Implementations of various useful Data Structures and algorithms
