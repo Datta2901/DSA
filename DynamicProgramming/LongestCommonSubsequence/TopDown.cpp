@@ -28,7 +28,7 @@ int LongestCommonSubsequence(string a,string b,int m,int n){
 int main(){
     string a,b;
     cin >> a >> b;
-    cout << "Longest Common Subsequence is : " << LongestCommonSubsequence(a,b,a.size(),b.size()) << endl;
+    cout << "Length of Longest Common Subsequence is : " << LongestCommonSubsequence(a,b,a.size(),b.size()) << endl;
     // for(auto it : mat){
     //     for(auto i : it){
     //         cout << i << " ";
