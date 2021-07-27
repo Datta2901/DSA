@@ -58,3 +58,8 @@ int main(){
     }
     return 0;
 }
+
+// Algo 
+// Find Lcs of 2 strings
+// Delete(print) the characters from a which are not there in b
+// Now add(print) the remaining from b which are not there in a
