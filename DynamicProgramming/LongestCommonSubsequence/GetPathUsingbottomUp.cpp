@@ -25,17 +25,11 @@ string LongestCommonSubsequence(string a,string b){
     string answer = "";
     // Tracing the path in the table
     while(i > 0 && j > 0){
-        if(dp[i - 1][j] == dp[i][j - 1]){
+        if(a[i - 1] == b[j - 1]){
             answer += a[i - 1];
             i--;
             j--;
         }
-        // or
-        // if(a[i - 1] == b[j - 1]){
-        //     answer += a[i - 1];
-        //     i--;
-        //     j--;
-        // }
         else if(dp[i][j - 1] > dp[i - 1][j]){
             j--;
         }else{
